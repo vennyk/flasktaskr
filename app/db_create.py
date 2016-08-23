@@ -5,9 +5,13 @@ from views import db
 from models import Task
 from datetime import date
 
+
+# create the database and the db table
 db.create_all()
 
-#db.session.add(Task("finish tutorial", date(2014,3,13),10,1))
-#db.session.add(Task("finish real python", date(2014,3,13),10,1))
+# insert data
+# db.session.add(Task("Finish this tutorial", date(2015, 3, 13), 10, 1))
+# db.session.add(Task("Finish Real Python", date(2015, 3, 13), 10, 1))
 
+# commit the changes
 db.session.commit()

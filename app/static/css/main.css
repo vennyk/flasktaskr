@@ -32,7 +32,6 @@ h2 {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .entries li {
@@ -59,15 +58,15 @@ h2 {
   background: #fafafa;
 }
 
-
 .flash {
   background: #CEE5F5;
   padding: 0.5em;
 }
 
 .error {
-  background: #F0D6D6;
-  padding: 0.5em;
+  color: red;
+  font-size: .8em;
+  background-color: #FFFFFF;
 }
 
 .datagrid table {
@@ -127,7 +126,3 @@ h2 {
   text-decoration:none;
   position:relative;
 }
-
-
-
-
